@@ -1,0 +1,55 @@
+﻿/* General Styling for Items Page */
+.page-header {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.page-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.button-group {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+    .table th, .table td {
+        text-align: center;
+    }
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Buttons */
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}

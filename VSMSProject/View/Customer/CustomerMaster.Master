@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CustomerMaster.master.cs" Inherits="VSMSProject.View.Customer.CustomerMaster" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <!-- FAVICON-->
+    <link rel="icon" href="../../Asset/Images/favicon1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../../Asset/Lib/Bootstrap/css/bootstrap.min.css"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        /* Custom Navbar Styling */
+        .navbar {
+            background-color: #007bff; /* Dark blue background color */
+        }
+
+        .navbar .navbar-nav .nav-link {
+            color: black !important; /* Black text color */
+            font-weight: bold; /* Bold font */
+        }
+
+        .navbar .navbar-nav .nav-link:hover {
+            color: white !important; /* White text on hover */
+        }
+        .user-label {
+            display: flex;
+            align-items: center;
+            gap: 5px; /* Space between text and icon */
+            color: white;
+            font-weight: bold;
+        }
+        .user-label i {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">VSMS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <li class="nav-item">
+          <a class="nav-link" href="CustomerHome.aspx">Home</a>
+         </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="">Items</a>
+        </li>
+         
+           <li class="nav-item">
+               <a class="nav-link" href="">Customers</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="">Dashboard</a>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" href="../Login.aspx">Logout</a>
+           </li>
+      </ul>
+    </div>
+  </div>
+        <div class="col-md-2 user-label">
+                    <i class="fas fa-user"></i>
+                    <asp:Label ID="NameTb" runat="server" Text="xxx"></asp:Label>
+                </div>
+
+</nav>
+
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="Mybody" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
