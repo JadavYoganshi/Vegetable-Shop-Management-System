@@ -128,7 +128,7 @@ Some key pages of the project:
 ---
 
 ## 👩‍💻 Developer
-- **Name:** Yoganshi Jadav  
+- **Name:** Yoganshi Jadav [GitHub](https://github.com/JadavYoganshi) 
 - **Role:** Developer  
 - **Tech Stack:** ASP.NET Framework, SQL Server, C#, HTML, CSS, Bootstrap  
 
