@@ -1,4 +1,4 @@
-# Vegetable Shop Management System
+# 🛒 Vegetable Shop Management System
 
 ## 📌 Project Overview
 The **Vegetable Shop Management System** is a web-based application designed to simplify and digitalize the management of a vegetable store.  
